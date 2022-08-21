@@ -17,18 +17,18 @@ export function SignIn() {
     </Heading>
 
     <Input 
-      placeholder="E-mail"
       mb={4}
+      placeholder="E-mail"
       InputLeftElement={<Icon as={<Envelope color={colors.gray[300]} />} ml={4} />}
     />
     <Input 
+      mb={8}
       placeholder="Senha" 
-      mb={4}
       InputLeftElement={<Icon as={<Key color={colors.gray[300]} />} ml={4} />}
       secureTextEntry  
     />
 
-    <Button />
+    <Button title="Entrar" w="full" />
 
     </VStack>
   )
